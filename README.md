@@ -1,1 +1,1 @@
-# alpha-map-web
+# Alpha Map
