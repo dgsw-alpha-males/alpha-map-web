@@ -1,0 +1,46 @@
+.bg-blur-24 {
+    backdrop-filter: blur(24px);
+}
+
+.chat-input::placeholder {
+    color: #919293;
+}
+
+.chat-input-container {
+    /*backdrop-filter: blur(30px);*/
+    /*filter: blur(10px);*/
+}
+
+.chat-content > ol, .chat-content > ul {
+    margin-left: 20px;
+}
+
+.fadein {
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeout {
+    animation: fadeout 1s;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.title {
+    transition: top 0.5s, border 0.5s, font-size 0.5s, font-weight 0.5s;
+}
